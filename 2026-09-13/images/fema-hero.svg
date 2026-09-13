@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Original schematic of FEMA inside DHS after Katrina statute">
+  <rect width="900" height="360" fill="#fffdf8"/>
+  <rect x="40" y="60" width="820" height="80" fill="#1c1914"/>
+  <text x="60" y="110" fill="#f4f1ea" font-size="20" font-family="Georgia,serif">Department of Homeland Security</text>
+  <rect x="80" y="170" width="740" height="130" fill="#2b4c3f"/>
+  <text x="100" y="220" fill="#fffdf8" font-size="20">FEMA — personnel authority at issue</text>
+  <text x="100" y="250" fill="#d9d0c0" font-size="14">Post-Katrina Act: DHS may not substantially reduce FEMA functions</text>
+  <text x="40" y="330" font-size="13" fill="#5c564c">Original schematic by ObjectiveNews. Not a photo of headquarters.</text>
+</svg>

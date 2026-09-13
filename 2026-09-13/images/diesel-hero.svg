@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Two supply stories meeting at a diesel pump">
+  <rect width="900" height="360" fill="#1c1914"/>
+  <text x="30" y="50" fill="#f4f1ea" font-size="20" font-family="Georgia,serif">Pump price is a measurement. Cause is a claim.</text>
+  <rect x="40" y="90" width="390" height="200" fill="#2b4c3f"/>
+  <text x="60" y="140" fill="#fff" font-size="16">AAA / GasBuddy trackers</text>
+  <text x="60" y="180" fill="#fffdf8" font-size="28">~ $6.05 / gal</text>
+  <text x="60" y="220" fill="#d9d0c0" font-size="14">U.S. retail diesel, week of 11 Sep</text>
+  <rect x="470" y="90" width="390" height="200" fill="#3a2a22"/>
+  <text x="490" y="140" fill="#fff" font-size="16">Attributed causes (quoted)</text>
+  <text x="490" y="180" fill="#fffdf8" font-size="14">Ukraine strikes on Russian refining</text>
+  <text x="490" y="204" fill="#fffdf8" font-size="14">Middle East / Hormuz disruption</text>
+  <text x="490" y="228" fill="#d9d0c0" font-size="13">These are competing explanations.</text>
+</svg>

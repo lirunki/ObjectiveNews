@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" role="img" aria-label="Staffing plan number cited in the opinion">
+  <rect width="800" height="260" fill="#fff"/>
+  <text x="20" y="28" font-size="16">Numbers named in coverage of Illston opinion</text>
+  <rect x="40" y="60" width="340" height="140" fill="#efe8dc"/>
+  <text x="55" y="100" font-size="14">Prior-level workforce cited</text>
+  <text x="55" y="140" font-size="26">~23,000</text>
+  <rect x="420" y="60" width="340" height="140" fill="#e4eee8"/>
+  <text x="435" y="100" font-size="14">Plan print cited by court</text>
+  <text x="435" y="140" font-size="26">~11,383</text>
+  <text x="20" y="230" font-size="12" fill="#5c564c">The 50% cut was not carried through. Relief still to be briefed.</text>
+</svg>

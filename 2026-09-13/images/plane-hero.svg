@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Schematic of a water landing near an airport">
+  <rect width="900" height="360" fill="#d7e4ea"/>
+  <rect x="0" y="200" width="900" height="160" fill="#3d6b7a"/>
+  <rect x="620" y="150" width="220" height="18" fill="#6b6b6b"/>
+  <text x="630" y="140" font-size="12">Wausau Downtown Airport</text>
+  <polygon points="200,190 360,175 370,185 210,205" fill="#1c1914"/>
+  <text x="24" y="40" font-size="18" font-family="Georgia,serif">Lake Wausau · Saturday 12 Sep ~20:49 CDT</text>
+  <text x="24" y="330" fill="#fffdf8" font-size="13">Original schematic. Not a photograph of the aircraft or the occupants.</text>
+</svg>
