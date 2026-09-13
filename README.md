@@ -1,10 +1,10 @@
 # ObjectiveNews
 
-Daily HTML dossiers of U.S.- and Spain-relevant news, with source links and scores for truthfulness, neutrality, and complicity.
+Daily HTML dossiers of U.S.- and Spain-relevant news, with source links and scores for truthfulness (0–100), neutrality (−100 left … +100 right), and complicity (0 high … 100 none).
 
 - All days: [index.html](index.html)
 - 13 September 2026: [2026-09-13/index.html](2026-09-13/index.html)
-- Local images and charts: [assets/images/](assets/images/)
+- Local images: [assets/images/](assets/images/)
 - Image credits: [assets/images/SOURCES.md](assets/images/SOURCES.md)
 
-Live on GitHub Pages if enabled: `https://lirunki.github.io/ObjectiveNews/`
+Repo: https://github.com/lirunki/ObjectiveNews
