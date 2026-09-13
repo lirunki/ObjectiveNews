@@ -19,7 +19,9 @@ Do the work. Do not stop at a chat summary. The git tree is the deliverable.
 - [ ] **Day summary lists every source headline as a real `<a href="https://...">` plus T, N, C scores next to it.**
 - [ ] **Every story page ends with a score table**: columns Outlet, Headline (hyperlink), T, N, C. At least 2 sources per story, preferably 3–5. No row without all three numbers.
 - [ ] At least one **visible image** on the day summary and **at least two visible images** on each story page (hero + one context/chart). Images must render when the HTML is opened from GitHub Pages **and** when the raw file is opened locally.
-- [ ] **Hero on each story is a real photograph or official still when one exists**, not a hand-drawn box diagram. Search Wikimedia Commons, agency sites, and public-domain collections first. A page that is only original schematics fails unless the search is documented in the image footer (“No reusable still found; searched Commons for …”).
+- [ ] **Every story page and every day-summary card uses a real external photograph as the hero `src`** (Wikimedia Commons `Special:FilePath` or a .gov / .gob.es / official still). A page whose only `src` is an original SVG fails. Pattern: see §5 and `2026-09-13/tiffany-plane-lake.html`.
+- [ ] Each such `<img>` has: external `src`, `data-orig` file-page URL, caption that names the Commons/gov page, `onerror` to a committed local SVG, no `crossorigin` attribute.
+- [ ] Captions say when the still is a **type / location photo**, not the event wreck or a partisan crop.
 - [ ] Story body is long enough to teach context (target 700–1400 words, not 150). Spain stories in Spanish. All other stories in English.
 - [ ] Own prose aims at T:100 N:0 C:100. Separate facts, quotes, and interpretation with headings.
 - [ ] Commit to `main` via GitHub tools. Reply to the user with the commit SHA and the day-summary URL when done.
@@ -45,7 +47,11 @@ For each story collect:
 - 2–5 source URLs with exact headlines
 - Who said what vs what is independently checkable
 - Dates, numbers, places
-- **At least one real reusable image**: Wikimedia Commons file URL, .gov / .gob.es / court / statistical-agency still, or another clearly public-domain / official photo. Also keep a chart SVG when the story is numbers. Do not stop at “I will draw a rectangle later.”
+- **At least two reusable image URLs** that can go in `<img src>`:
+  - Wikimedia Commons file page + `Special:FilePath/Exact_Filename.jpg`
+  - or a government still (.gov, .mil, .gob.es, BLS, FEMA, La Moncloa)
+  - Type photos are required when the event photo is AP/Getty/CNN-only
+- Also keep a chart SVG when the story is numbers. Do not stop at “I will draw a rectangle later.”
 
 ---
 
@@ -97,7 +103,7 @@ Required sections:
 3. Then one card per story:
    - Neutral title linking to the story HTML
    - **Interpretation paragraph** (fair, short, explicit about claims vs evidence)
-   - Thumbnail image that actually displays
+   - Thumbnail: same Commons/gov `src` pattern as the story hero (not an SVG-only thumb)
    - **Source list with T/N/C on this same page**
 
 Do not write “Energy did a large share of the monthly move” and stop. Name the print, the date, and the dispute.
@@ -112,13 +118,13 @@ Structure:
 1. Kicker (place · topic · date)
 2. Title that is a sentence of fact
 3. Byline: “ObjectiveNews. Target T 100 · N 0 · C 100.”
-4. Hero image + caption naming origin **and the original file URL**
+4. Hero image + caption naming origin **and the original file-page URL**
 5. 700–1400 words:
    - What is agreed across desks
    - What is only a quote
    - Mechanism / history a reader needs
    - What the story is **not**
-6. Optional SVG chart for numbers (this is extra, not a substitute for the hero photo)
+6. Second image: another Commons/gov still **or** an SVG chart for numbers (chart is extra, not a substitute for the hero photo)
 7. Score table
 8. Image credit footer with original image URLs
 
@@ -128,21 +134,48 @@ Spain story → entire article in Spanish, including score-table headers.
 
 ---
 
-## 5. Images — use real pictures. Try hard. Avoid biased frames.
+## 5. Images — real external photos on EVERY story
 
-The owner wants **real photographs and official stills**, not a dossier of rectangles. A run that ships only original SVGs after skipping Commons is a failed run.
+The Tiffany page (`2026-09-13/tiffany-plane-lake.html`) is the template. Copy that pattern on **every** story and on every day-summary thumbnail. Do not ship a dossier of rectangles.
 
-Images must **display in a browser** from the committed HTML. Relative paths to files that were never committed, or GitHub `blob` URLs, or hotlinked news CDNs that send 403/CORS, count as failure.
+Ordinary `<img src="https://…">` does **not** need CORS. Do **not** add `crossorigin`. Do **not** `fetch()` the pixels. Commons `Special:FilePath` redirects to `upload.wikimedia.org` and is the preferred `src`.
 
-### What “real” means
+### Required markup (use this, every story)
 
-Prefer, in this order:
+```html
+<figure>
+  <img class="hero"
+    src="https://commons.wikimedia.org/wiki/Special:FilePath/Beechcraft_V35B_Bonanza.jpg"
+    data-orig="https://commons.wikimedia.org/wiki/File:Beechcraft_V35B_Bonanza.jpg"
+    alt="Type photograph of a Beechcraft V35B Bonanza, not the accident aircraft"
+    onerror="this.onerror=null;this.src='images/plane-hero.svg';">
+  <figcaption>
+    Type photograph — not the event wreck and not the occupants.
+    Source: <a href="https://commons.wikimedia.org/wiki/File:Beechcraft_V35B_Bonanza.jpg">Wikimedia Commons file page</a>.
+    Direct file: <a href="https://commons.wikimedia.org/wiki/Special:FilePath/Beechcraft_V35B_Bonanza.jpg">Special:FilePath</a>.
+    If Commons is blocked, fallback is the committed SVG.
+  </figcaption>
+</figure>
+```
 
-1. **Wikimedia Commons** files with a clear reusable license (CC BY, CC BY-SA, CC0, public domain). Download the actual JPEG/PNG/SVG. Commit it. Caption the Commons file page URL.
-2. **Official government / agency / court / statistical-office** stills (.gov, .mil, .gob.es, BLS, FEMA, La Moncloa, Guardia Civil, sheriff PDF photo if reusable).
-3. **Type photographs** when the event photo is not reusable: the aircraft type, the courthouse exterior, the city coastline, the agency seal — labeled as type/location, not “this morning’s wreck.”
-4. **Original SVG chart** for numbers (CPI components, diesel prints, return counts). Charts are welcome. They do not replace the hero photo.
-5. **Last resort only**: original schematic, labeled “Original schematic by ObjectiveNews, not a photograph of the event,” **and** a footer line that names the Commons / agency searches you ran.
+Rules inside that pattern:
+- `src` is Commons `Special:FilePath/Exact_Filename.ext` **or** a stable .gov / .gob.es image URL.
+- `data-orig` is the Commons **File:** page or the agency page, not a news CDN.
+- `onerror` points at a committed local SVG under `YYYY-MM-DD/images/`.
+- Caption states type vs event. Link both the file page and the FilePath.
+- Never use NYT / Getty / CNN / AP CDN as the only `src`.
+- Never use `crossorigin`, canvas, or a JS proxy.
+
+Day-summary cards use the same `src` + `onerror` (smaller CSS is fine).
+
+### What “real” means (search order)
+
+1. **Wikimedia Commons** reusable license (CC BY, CC BY-SA, CC0, public domain). Put `Special:FilePath` in `src`. Credit the File: page.
+2. **Official government / agency / court / statistical-office** stills (.gov, .mil, .gob.es, BLS, FEMA, La Moncloa, Guardia Civil).
+3. **Type photographs** when the event photo is not reusable: aircraft type, courthouse exterior, city coastline, agency seal — labeled as type/location, not “this morning’s wreck.”
+4. Optionally **commit a local JPEG** as well (`YYYY-MM-DD/images/hero-slug.jpg`) and you may put that local file first with Commons as `onerror`. External Commons `src` first is acceptable and is the default after the Tiffany update.
+5. **Original SVG chart** for numbers. Charts are the second image, not the hero.
+6. **Last resort only**: original schematic as `onerror` fallback, labeled as such, with the Commons search terms in the footer.
 
 ### Avoid biased images
 
@@ -159,48 +192,21 @@ Do use:
 
 If two Commons files exist, pick the duller one.
 
-### Pipeline (use in this order)
+### Local files still required as fallback
 
-**A. Search, then store a file in the repo**
-- Search Commons with the place, agency, and object names (example: `Beechcraft Bonanza`, `Farmleigh House`, `Ceuta Tarajal`, `FEMA headquarters`, `BLS seal`).
 - Shared chrome: `assets/images/`
-- Day-specific: `YYYY-MM-DD/images/`
-- From a day page: `images/hero-tiffany.jpg` or `../assets/images/logo.svg`
-- From root `index.html`: `assets/images/...`
-- Keep `assets/images/SOURCES.md` (or `YYYY-MM-DD/images/SOURCES.md`) with filename → original URL → license.
+- Day-specific SVGs: `YYYY-MM-DD/images/` (`hero-slug.svg`, `fallback.svg`, charts)
+- `YYYY-MM-DD/images/SOURCES.md` lists: story slug → Commons File: URL → FilePath URL → license → local fallback filename
 
-**B. Copyright**
-- Wikimedia / public-domain / official government photos: **download and commit the binary**. Caption + footer must cite the original file URL.
-- If the GitHub text API cannot take raw JPEG bytes, embed a ≤200 KB `data:image/jpeg;base64,...` **and** still commit a copy if the tool allows, **and** still list the Commons URL in the footer. Do not skip the photo because the API prefers text.
-- News-org photos: do **not** copy pixels unless the license is clearly reusable. Substitute a Commons type photo. Do not hotlink Getty/CNN/NYT as the only `src`.
+You may also download and commit the JPEG when the GitHub API allows binaries. That is extra. It does not replace the external `src`.
 
-**C. Base64 embed (when a small image must work with zero extra files)**
-- Allowed for original SVGs and small public-domain stills under ~200 KB.
-- Pattern: `<img alt="..." src="data:image/svg+xml;base64,...">` or `data:image/jpeg;base64,...`
-- Also commit the same binary under `YYYY-MM-DD/images/` when possible.
-- Footer always lists the **original** photograph URL.
-- Do not base64 a paywalled news photo you lack rights to store.
+### Base64
 
-**D. Hotlink only with a local fallback**
+Allowed for original SVGs and small public-domain stills under ~200 KB if a remote host dies and you have no other file. Do not base64 a paywalled news photo.
 
-```html
-<img
-  src="images/tiffany-hero.jpg"
-  data-orig="https://upload.wikimedia.org/wikipedia/commons/....jpg"
-  alt="Type photo of a Beechcraft Bonanza, not the accident aircraft"
-  onerror="this.onerror=null;this.src='images/plane-lake.svg';">
-```
+### Charts
 
-Never rely on a NYT/Getty/CNN CDN as the only `src`.
-A Wikimedia `upload.wikimedia.org` URL may be used as `data-orig` and as the onerror second try **after** a local file. Local file first.
-
-**E. Last resort**
-- Original schematic labeled “Original schematic by ObjectiveNews, not a photograph of the event.”
-- Only after a real search. Write the search terms in the footer.
-
-**F. Charts**
-- If the story has numbers, draw an SVG chart, commit it, caption the data source.
-- Chart + real photo is the default pair on a story page.
+If the story has numbers, draw an SVG chart, commit it, caption the data source. Chart + real photo is the default pair.
 
 Every `<img>` needs a non-empty `alt`.
 
@@ -240,7 +246,7 @@ img.hero, .card img, figure img { max-width: 100%; height: auto; display: block;
 1. Read the existing tree recursive.
 2. Update root `index.html` so the new day is first.
 3. Wire prev/next between adjacent day folders.
-4. Commit HTML **and** images (JPEG/PNG from Commons or government, plus SVG charts). If binaries cannot be pushed as files, embed JPEG/PNG base64 in HTML so the real picture still shows, and keep the original URL in the footer.
+4. Commit HTML, local SVG fallbacks, SOURCES.md. External Commons/gov URLs live in the HTML `src`. Commit JPEGs too when the API allows.
 5. Do not overwrite unrelated days.
 6. Final user message: commit SHA + day-summary URL.
 
@@ -250,13 +256,14 @@ img.hero, .card img, figure img { max-width: 100%; height: auto; display: block;
 
 - Day summary that is only punchy one-liners and no source scores
 - Story footer that names outlets but omits T/N/C
-- `src` pointing at a file that was never committed
+- `src` pointing at a file that was never committed **and** no working external Commons/gov `src`
 - Story body under ~300 words
 - Treating a president’s sentence as a fact about the world
 - Generating an image and not putting it in `src`
 - Hotlinking news CDNs as the only image
 - **Shipping only original SVGs when a Commons or .gov still exists**
-- **Skipping the Commons search because GitHub file APIs like text**
+- **Doing the Tiffany Commons pattern on one story and leaving the others as schematics**
+- Adding `crossorigin` or a JS CORS proxy (not needed for `<img>`)
 - **Hero images that editorialize** (rally triumph crops, suffering close-ups, cartoons)
 - Wrong language for Spain vs US
 - Dead `#` prev/next when a neighbor folder exists
@@ -268,4 +275,5 @@ img.hero, .card img, figure img { max-width: 100%; height: auto; display: block;
 
 A chat recap does not replace the HTML. Success is opening
 `https://github.com/lirunki/ObjectiveNews/blob/main/YYYY-MM-DD/index.html`
-and seeing **real pictures plus scored source links** on that page.
+and seeing **real Commons/gov pictures plus scored source links** on that page.
+Reference implementation: `2026-09-13/tiffany-plane-lake.html`.
