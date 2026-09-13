@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" role="img" aria-label="CPI month print versus year print">
+  <rect width="800" height="280" fill="#fff"/>
+  <text x="20" y="28" font-size="16" font-family="Georgia,serif">Two different objects: month vs year</text>
+  <rect x="40" y="70" width="320" height="140" fill="#e8efe9" stroke="#2b4c3f"/>
+  <text x="56" y="110" font-size="14">Seasonally adjusted month</text>
+  <text x="56" y="145" font-size="28" fill="#2b4c3f">+0.4%</text>
+  <text x="56" y="175" font-size="13" fill="#5c564c">Jul 2026 → Aug 2026</text>
+  <rect x="420" y="70" width="320" height="140" fill="#f4ece6" stroke="#8b3a2a"/>
+  <text x="436" y="110" font-size="14">Not seasonally adjusted year</text>
+  <text x="436" y="145" font-size="28" fill="#8b3a2a">+3.4%</text>
+  <text x="436" y="175" font-size="13" fill="#5c564c">Aug 2025 → Aug 2026</text>
+</svg>

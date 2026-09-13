@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-label="Original schematic of CPI components August 2026">
+  <rect width="900" height="420" fill="#fffdf8"/>
+  <text x="28" y="36" font-size="18" font-family="Georgia,serif" fill="#1c1914">August 2026 CPI-U (BLS print, 11 Sep 2026)</text>
+  <text x="28" y="62" font-size="13" font-family="ui-sans-serif,system-ui" fill="#5c564c">Original schematic by ObjectiveNews. Not a photograph. Source: BLS.</text>
+  <rect x="60" y="100" width="80" height="220" fill="#2b4c3f"/>
+  <text x="70" y="340" font-size="12" fill="#1c1914">All +3.4%</text>
+  <rect x="200" y="160" width="80" height="160" fill="#6b8f7a"/>
+  <text x="210" y="340" font-size="12" fill="#1c1914">Core +2.4%</text>
+  <rect x="340" y="180" width="80" height="140" fill="#8aa090"/>
+  <text x="350" y="340" font-size="12" fill="#1c1914">Food +2.7%</text>
+  <rect x="480" y="40" width="80" height="280" fill="#8b3a2a"/>
+  <text x="478" y="340" font-size="12" fill="#1c1914">Energy +16.3%</text>
+  <rect x="620" y="20" width="80" height="300" fill="#5a2a22"/>
+  <text x="610" y="340" font-size="12" fill="#1c1914">Gasoline +27.4%</text>
+  <text x="28" y="390" font-size="13" fill="#5c564c">12-month NSA percent change. Month print: all items +0.4% SA; core +0.3% SA.</text>
+</svg>

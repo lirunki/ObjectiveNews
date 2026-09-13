@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Schematic of a pledge versus an appropriation">
+  <rect width="900" height="360" fill="#fffdf8"/>
+  <text x="24" y="36" font-size="18" font-family="Georgia,serif">Pledge is speech. Appropriation is statute.</text>
+  <rect x="40" y="70" width="380" height="230" fill="#efe8dc" stroke="#1c1914"/>
+  <text x="60" y="110" font-size="16">What was said</text>
+  <text x="60" y="150" font-size="14">$5,000 per adult if Republicans</text>
+  <text x="60" y="172" font-size="14">keep House and Senate.</text>
+  <text x="60" y="210" font-size="13" fill="#5c564c">Source: public remarks, Dallas and Doonbeg.</text>
+  <rect x="460" y="70" width="400" height="230" fill="#e4eee8" stroke="#2b4c3f"/>
+  <text x="480" y="110" font-size="16">What is not on paper</text>
+  <text x="480" y="150" font-size="14">No enacted bill. No offset scored</text>
+  <text x="480" y="172" font-size="14">by CBO. Cost estimates ~$1.2–1.3tn.</text>
+  <text x="480" y="210" font-size="13" fill="#5c564c">Original schematic. Not a photograph.</text>
+</svg>
