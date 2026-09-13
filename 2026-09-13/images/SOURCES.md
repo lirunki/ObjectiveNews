@@ -1,42 +1,19 @@
-# Image sources for 2026-09-13
+# Image sources — 2026-09-13
 
-## day-summary (index.html)
-- Commons File: https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg
-- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_States.svg
-- License: public domain
-- Local fallback: day-banner.svg
+All hero images use Wikimedia Commons Special:FilePath or stable agency marks. Local SVGs are onerror fallbacks only.
 
-## cpi-august-2026
-- Commons File: https://commons.wikimedia.org/wiki/File:Bureau_of_Labor_Statistics_logo.svg
-- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Bureau_of_Labor_Statistics_logo.svg
-- License: PD-USGov-DOL
-- Local fallback: cpi-hero.svg
-- Chart: cpi-chart.svg
+| Story slug | Commons / agency File: page | Special:FilePath or .gov URL | License / note | Local fallback |
+| --- | --- | --- | --- | --- |
+| tiffany-plane-lake | https://commons.wikimedia.org/wiki/File:Beechcraft_V35B_Bonanza.jpg | https://commons.wikimedia.org/wiki/Special:FilePath/Beechcraft_V35B_Bonanza.jpg | CC (see file page) type aircraft | plane-hero.svg |
+| tiffany-plane-lake (2nd) | https://commons.wikimedia.org/wiki/File:Wisconsin_River.jpg | https://commons.wikimedia.org/wiki/Special:FilePath/Wisconsin_River.jpg | location photo | plane-chart.svg (chart) |
+| cpi-august-2026 | https://commons.wikimedia.org/wiki/File:Bureau_of_Labor_Statistics_logo.svg | https://commons.wikimedia.org/wiki/Special:FilePath/Bureau_of_Labor_Statistics_logo.svg | public domain / agency | cpi-hero.svg |
+| fema-staffing-ruling | https://commons.wikimedia.org/wiki/File:FEMA_logo.svg | https://commons.wikimedia.org/wiki/Special:FilePath/FEMA_logo.svg | public domain | fema-hero.svg |
+| trump-dividend | https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_evening.jpg | https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Capitol_west_front_evening.jpg | location exterior | dividend-hero.svg |
+| diesel-ukraine-trump | https://commons.wikimedia.org/wiki/File:Petroleum_refinery.jpg | https://commons.wikimedia.org/wiki/Special:FilePath/Petroleum_refinery.jpg | type infrastructure | diesel-hero.svg |
+| ai-safety-slowdown | https://commons.wikimedia.org/wiki/File:Artificial_intelligence_icon.svg | https://commons.wikimedia.org/wiki/Special:FilePath/Artificial_intelligence_icon.svg | generic icon | ai-hero.svg |
+| trump-ireland-unity | https://commons.wikimedia.org/wiki/File:Island_of_Ireland.svg | https://commons.wikimedia.org/wiki/Special:FilePath/Island_of_Ireland.svg | map | ireland-hero.svg |
+| ceuta-migracion | https://commons.wikimedia.org/wiki/File:Ceuta_border_fence.jpg | https://commons.wikimedia.org/wiki/Special:FilePath/Ceuta_border_fence.jpg | location / type fence | ceuta-hero.svg |
 
-## fema-staffing-ruling
-- Commons File: https://commons.wikimedia.org/wiki/File:Seal_of_the_Federal_Emergency_Management_Agency.svg
-- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Federal_Emergency_Management_Agency.svg
-- License: PD-USGov
-- Local fallback: fema-hero.svg
+Charts (second image on numbers stories) are original SVGs committed under images/.
 
-## tiffany-plane-lake
-- Commons File: https://commons.wikimedia.org/wiki/File:Beechcraft_V35B_Bonanza.jpg
-- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Beechcraft_V35B_Bonanza.jpg
-- Local fallback: plane-hero.svg
-
-## diesel-ukraine-trump
-- Commons File: https://commons.wikimedia.org/wiki/File:Aral-Diesel-Zapfsäule_in_Varel.jpg
-- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Aral-Diesel-Zapfs%C3%A4ule_in_Varel.jpg
-- Local fallback: diesel-hero.svg
-- Chart: diesel-chart.svg
-
-## ceuta-migracion
-- Commons File: https://commons.wikimedia.org/wiki/File:CeutaBorderFence.jpg
-- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/CeutaBorderFence.jpg
-- Local fallback: ceuta-hero.svg
-- Chart: ceuta-chart.svg
-
-## trump-dividend / ai / ireland thumbs
-- Treasury seal, AI icon, Flag of Ireland respectively; local SVG fallbacks
-
-All heroes use Commons Special:FilePath with data-orig, type/location captions, onerror to local SVG. No news-CDN-only src. No crossorigin.
+No NYT/Getty/CNN/AP CDN used as sole src. No crossorigin attributes.
