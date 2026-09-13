@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" role="img" aria-label="Ceuta figures 13 September">
+  <rect width="800" height="340" fill="#fffdf8"/>
+  <text x="20" y="32" font-family="Georgia,serif" font-size="18" fill="#1c1914">Cifras del 13 de septiembre de 2026 (atribuidas)</text>
+  <rect x="40" y="90" width="100" height="170" fill="#2b4c3f"/>
+  <text x="52" y="80" font-size="14">5.321</text>
+  <text x="42" y="280" font-size="12">Retornos</text>
+  <rect x="180" y="220" width="100" height="40" fill="#5c7a6c"/>
+  <text x="208" y="210" font-size="14">~90</text>
+  <text x="178" y="280" font-size="12">Renuncias</text>
+  <rect x="320" y="140" width="100" height="120" fill="#8a5a12"/>
+  <text x="336" y="130" font-size="14">4.500+</text>
+  <text x="318" y="280" font-size="12">Plazas Estado</text>
+  <rect x="460" y="190" width="100" height="70" fill="#6b5a3a"/>
+  <text x="488" y="180" font-size="14">2.000</text>
+  <text x="470" y="280" font-size="12">Menores</text>
+  <rect x="600" y="50" width="100" height="210" fill="#8b3a2a"/>
+  <text x="612" y="40" font-size="14">~13.000</text>
+  <text x="598" y="280" font-size="12">Estim. local</text>
+  <text x="20" y="318" font-size="12" fill="#5c564c">Retornos y plazas: Gobierno. 13.000: Ejecutivo local. No hay censo independiente este domingo.</text>
+</svg>

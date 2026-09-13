@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Diesel pump illustration">
+  <rect width="1200" height="630" fill="#e8e0d0"/>
+  <rect x="0" y="470" width="1200" height="160" fill="#3a3a36"/>
+  <rect x="0" y="470" width="1200" height="18" fill="#c9a227"/>
+  <rect x="140" y="160" width="280" height="360" rx="8" fill="#1f2a26"/>
+  <rect x="165" y="185" width="230" height="120" fill="#0d1210"/>
+  <text x="180" y="230" fill="#d4e8a8" font-family="ui-monospace,monospace" font-size="28">DIESEL</text>
+  <text x="180" y="280" fill="#f4f1ea" font-family="ui-monospace,monospace" font-size="42">$6.06</text>
+  <rect x="190" y="330" width="70" height="160" fill="#8b3a2a"/>
+  <rect x="280" y="330" width="70" height="160" fill="#2b4c3f"/>
+  <path d="M420 240 h80 v40 h40" fill="none" stroke="#8a5a12" stroke-width="16"/>
+  <circle cx="540" cy="280" r="18" fill="#8a5a12"/>
+  <text x="140" y="80" fill="#1c1914" font-family="Georgia,serif" font-size="36">U.S. retail diesel</text>
+  <text x="140" y="120" fill="#5c564c" font-family="Georgia,serif" font-size="22">Schematic — not a photograph of a specific station</text>
+</svg>
