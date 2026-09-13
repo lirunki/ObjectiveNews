@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" role="img" aria-label="13 September 2026 dossier banner">
+  <rect width="1200" height="280" fill="#1c1914"/>
+  <rect x="0" y="0" width="18" height="280" fill="#2b4c3f"/>
+  <text x="48" y="90" fill="#f4f1ea" font-family="Georgia,serif" font-size="42">13 September 2026</text>
+  <text x="48" y="140" fill="#d9d0c0" font-family="Georgia,serif" font-size="22">United States · Spain · wire-first dossier</text>
+  <text x="48" y="200" fill="#9aa7a0" font-family="sans-serif" font-size="16">Local images and charts committed to this repository</text>
+</svg>
