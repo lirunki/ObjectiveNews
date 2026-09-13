@@ -26,7 +26,7 @@ header.site nav a { margin-right: 1rem; }
 .card { background: var(--paper); border: 1px solid var(--line); padding: 1.15rem 1.2rem; margin: 1.1rem 0; }
 .meta { color: var(--muted); font-size: .9rem; }
 .navrow { display: flex; justify-content: space-between; gap: 1rem; margin: 1.4rem 0; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .92rem; }
-.navrow a.disabled { color: #9a9286; pointer-events: none; }
+.navrow .disabled, .navrow span.disabled { color: #9a9286; }
 figure { margin: 1.2rem 0; }
 figure img { width: 100%; max-height: 420px; object-fit: cover; border: 1px solid var(--line); background: #fff; }
 figure img[src$=".svg"] { object-fit: contain; max-height: 460px; background: transparent; }
@@ -39,3 +39,14 @@ footer.site { margin-top: 2rem; padding: 1.2rem 1.4rem 2rem; border-top: 1px sol
 .scores th, .scores td { border-bottom: 1px solid var(--line); text-align: left; padding: .4rem .35rem; vertical-align: top; }
 .wire img { width:100%; max-height:440px; object-fit:cover; border:1px solid var(--line); background:#111; }
 .origlink { font-size:.82rem; }
+.sources { list-style: none; padding: 0; margin: .6rem 0 0; }
+.sources li { display: flex; flex-wrap: wrap; gap: .4rem 1rem; padding: .35rem 0; border-bottom: 1px solid var(--line); }
+.sources .scores { font-family: ui-sans-serif, system-ui, sans-serif; font-variant-numeric: tabular-nums; color: var(--muted); }
+.interp { margin: .4rem 0 .8rem; }
+img.hero, .card img, figure img { max-width: 100%; height: auto; display: block; }
+article.story p { margin: 0.75rem 0; }
+h2.sec { font-size: 1.15rem; margin-top: 1.6rem; }
+.credits { font-size: .82rem; color: var(--muted); }
+table.scoreboard { width: 100%; border-collapse: collapse; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .9rem; }
+table.scoreboard th, table.scoreboard td { border-bottom: 1px solid var(--line); text-align: left; padding: .45rem .35rem; vertical-align: top; }
+table.scoreboard th { font-size: .75rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); }
