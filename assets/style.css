@@ -39,21 +39,14 @@ h1, h2, h3 { line-height: 1.2; }
   margin: 1.1rem 0;
 }
 .meta { color: var(--muted); font-size: .9rem; }
-.scores { display: flex; flex-wrap: wrap; gap: .45rem; margin: .6rem 0 0; }
-.pill {
-  font-family: ui-sans-serif, system-ui, sans-serif;
-  font-size: .75rem;
-  border: 1px solid var(--line);
-  padding: .18rem .45rem;
-  background: #faf7f1;
-}
 .sources { margin: .4rem 0 0; padding-left: 1.1rem; }
 .sources li { margin: .25rem 0; }
 .navrow { display: flex; justify-content: space-between; gap: 1rem; margin: 1.4rem 0; font-family: ui-sans-serif, system-ui, sans-serif; font-size: .92rem; }
 .navrow a.disabled { color: #9a9286; pointer-events: none; }
 figure { margin: 1.2rem 0; }
-figure img { width: 100%; max-height: 420px; object-fit: cover; border: 1px solid var(--line); }
-figcaption { font-size: .82rem; color: var(--muted); margin-top: .35rem; }
+figure img { width: 100%; max-height: 420px; object-fit: cover; border: 1px solid var(--line); background: #fff; }
+figure img[src$=".svg"] { object-fit: contain; max-height: 460px; background: transparent; }
+.thumb { width: 100%; max-height: 160px; object-fit: cover; border: 1px solid var(--line); margin: .4rem 0 .7rem; background: #fff; }
 .chart {
   background: #fff;
   border: 1px solid var(--line);
