@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Esquema de cifras oficiales y cifra local en Ceuta">
+  <rect width="900" height="360" fill="#fffdf8"/>
+  <text x="24" y="36" font-size="18" font-family="Georgia,serif">Ceuta, 13 sep 2026 — cifras que no miden lo mismo</text>
+  <rect x="30" y="70" width="260" height="210" fill="#e4eee8"/>
+  <text x="44" y="110" font-size="14">Retornos (Gobierno)</text>
+  <text x="44" y="160" font-size="32">5.321</text>
+  <text x="44" y="190" font-size="12">desde el 10 de agosto</text>
+  <rect x="310" y="70" width="260" height="210" fill="#efe8dc"/>
+  <text x="324" y="110" font-size="14">Plazas Estado</text>
+  <text x="324" y="160" font-size="32">4.500</text>
+  <text x="324" y="190" font-size="12">+ 864 trasladados hoy</text>
+  <rect x="590" y="70" width="280" height="210" fill="#f4ece6"/>
+  <text x="604" y="110" font-size="14">Calculo local (no censo)</text>
+  <text x="604" y="160" font-size="32">~13.000</text>
+  <text x="604" y="190" font-size="12">autoridades de Ceuta</text>
+  <text x="24" y="330" font-size="12" fill="#5c564c">Esquema original. No es una fotografia del Tarajal.</text>
+</svg>

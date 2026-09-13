@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-label="Schematic of Ireland, Northern Ireland, and consent rule">
+  <rect width="900" height="360" fill="#fffdf8"/>
+  <rect x="60" y="50" width="300" height="230" fill="#2b4c3f"/>
+  <text x="80" y="120" fill="#fff" font-size="18">Republic of Ireland</text>
+  <text x="80" y="150" fill="#d9d0c0" font-size="13">Sovereign state. Host of visit.</text>
+  <rect x="420" y="50" width="300" height="140" fill="#1c1914"/>
+  <text x="440" y="100" fill="#fff" font-size="18">Northern Ireland</text>
+  <text x="440" y="130" fill="#d9d0c0" font-size="13">Part of the United Kingdom</text>
+  <rect x="420" y="210" width="420" height="70" fill="#efe8dc" stroke="#1c1914"/>
+  <text x="434" y="252" font-size="13">Good Friday: consent in the North required</text>
+  <text x="60" y="330" font-size="12" fill="#5c564c">Original map-like schematic. Not a photograph of Farmleigh House.</text>
+</svg>

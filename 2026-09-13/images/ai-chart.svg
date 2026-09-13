@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" role="img" aria-label="Who said what on AI pace">
+  <rect width="800" height="240" fill="#fff"/>
+  <text x="20" y="30" font-size="16">Statements, not measurements of model risk</text>
+  <text x="20" y="80" font-size="14">Amodei: slow capability growth so safety work can keep up.</text>
+  <text x="20" y="110" font-size="14">Altman, Musk, Hassabis: public agreement reported after the letter.</text>
+  <text x="20" y="140" font-size="14">Trump, 13 Sep, Ireland: whoever wins with AI wins.</text>
+  <text x="20" y="200" font-size="12" fill="#5c564c">No public third-party audit result was attached to the letter.</text>
+</svg>
