@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#d4cfc4"/>
+  <rect x="100" y="120" width="600" height="200" fill="#5c564c" opacity="0.2"/>
+  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#1c1914">Ceuta port / border — schematic</text>
+</svg>

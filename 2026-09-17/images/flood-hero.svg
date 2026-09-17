@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#c5d4e0"/>
+  <path d="M0 280 Q200 240 400 290 T800 260 L800 450 L0 450 Z" fill="#6a8a9e"/>
+  <text x="400" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="20" fill="#1c1914">Mediterranean coast — schematic</text>
+</svg>

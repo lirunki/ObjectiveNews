@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#d9d0c0"/>
+  <rect x="120" y="80" width="560" height="280" fill="#2b4c3f" opacity="0.15"/>
+  <text x="400" y="230" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#1c1914">Eccles Building — schematic</text>
+</svg>
