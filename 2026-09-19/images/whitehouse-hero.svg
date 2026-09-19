@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#d9d0c0"/>
+  <rect x="200" y="150" width="400" height="200" fill="#f4f1ea" stroke="#1c1914" stroke-width="2"/>
+  <text x="400" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#1c1914">White House type exterior (fallback)</text>
+</svg>
