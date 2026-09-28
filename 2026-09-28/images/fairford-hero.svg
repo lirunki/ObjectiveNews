@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#d0d8e0"/>
+  <rect x="100" y="180" width="600" height="80" fill="#6a7a8a"/>
+  <polygon points="150,180 250,120 350,180" fill="#8a9aaa"/>
+  <text x="400" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#3a4a5a">RAF Fairford type schematic (fallback)</text>
+</svg>
