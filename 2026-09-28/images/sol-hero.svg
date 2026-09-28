@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#e8e0d0"/>
+  <rect x="250" y="100" width="300" height="200" fill="#c0b0a0"/>
+  <text x="400" y="350" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" fill="#5c564c">Puerta del Sol type schematic (fallback)</text>
+</svg>
