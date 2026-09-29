@@ -1,7 +1,29 @@
-# Image sources — 2026-09-29
-| Story | Commons File page | Special:FilePath | License | Local fallback |
-| us-iraq-withdrawal | File:Camp_Victory,_Baghdad,_Iraq.jpg | Special:FilePath/Camp_Victory,_Baghdad,_Iraq.jpg | PD | iraq-hero.svg |
-| starship-first-orbit | File:Starbase.jpg | Special:FilePath/Starbase.jpg | CC BY | starship-hero.svg |
-| iowa-steel-plant | File:Aerial_view_of_U.S._Steel_Works_in_Gary,_IN.jpg | Special:FilePath/... | CC | steel-hero.svg |
-| cornell-probe-reopened | File:Cornell_University_McGraw_Tower.jpg | Special:FilePath/... | CC | cornell-hero.svg |
-| spain-decreto-vivienda | File:Palacio_de_la_Moncloa.jpg | Special:FilePath/... | CC | spain-hero.svg |
+# 2026-09-29 image sources
+
+## starship-orbit
+- Commons File: https://commons.wikimedia.org/wiki/File:StarshipLaunch.jpg
+- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/StarshipLaunch.jpg
+- License: CC BY-SA 4.0 (Osunpokeh)
+- Local fallback: starship-hero.svg
+- Note: Type launch photograph from 2023 IFT, not the 28 Sep 2026 flight
+
+## iraq-withdrawal
+- Local fallback: iraq-hero.svg
+- Note: Type / location still of U.S. presence era, not departure ceremony crop
+
+## jack-smith-senate
+- Commons File: https://commons.wikimedia.org/wiki/File:United_States_Capitol_west_front_edit.jpg
+- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/United_States_Capitol_west_front_edit.jpg
+- Local fallback: smith-hero.svg
+
+## cornell-reopen
+- Commons File: https://commons.wikimedia.org/wiki/File:Cornell_University_McGraw_Tower.jpg
+- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Cornell_University_McGraw_Tower.jpg
+- Local fallback: cornell-hero.svg
+
+## decreto-vivienda
+- Commons File: https://commons.wikimedia.org/wiki/File:Puerta_del_Sol_Madrid_Spain.jpg
+- FilePath: https://commons.wikimedia.org/wiki/Special:FilePath/Puerta_del_Sol_Madrid_Spain.jpg
+- Local fallback: vivienda-hero.svg
+
+All heroes use external Special:FilePath first; onerror to local SVG. No crossorigin.
