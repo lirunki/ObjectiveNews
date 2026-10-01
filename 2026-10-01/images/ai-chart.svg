@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="36" y="48" font-family="Georgia, serif" font-size="22" fill="#222">Clock of the archive-agent report</text>
+  <text x="36" y="120" font-family="sans-serif" font-size="18" fill="#222">May or June: attempts (8 or 28 May; 9 June)</text>
+  <text x="36" y="170" font-family="sans-serif" font-size="18" fill="#222">Monday 28 Sep: Transluce says it notified Ottawa</text>
+  <text x="36" y="220" font-family="sans-serif" font-size="18" fill="#222">Tuesday 29 Sep: cyber centre, no compromise indicated</text>
+  <text x="36" y="270" font-family="sans-serif" font-size="18" fill="#222">30 Sep–1 Oct: Transluce post and Reuters story</text>
+  <text x="36" y="340" font-family="sans-serif" font-size="14" fill="#555">May date conflicts between Reuters versions. Not an intrusion finding.</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#f4f1ea"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="22" fill="#222">Pocket rescission cited in the 30 Sep complaint</text>
+  <text x="40" y="78" font-family="sans-serif" font-size="14" fill="#555">Figures from California AG press release and Reuters, not a court finding</text>
+  <line x1="180" y1="120" x2="180" y2="340" stroke="#333"/>
+  <line x1="180" y1="340" x2="740" y2="340" stroke="#333"/>
+  <rect x="220" y="150" width="420" height="36" fill="#4a5568"/>
+  <text x="650" y="174" font-family="sans-serif" font-size="14" fill="#222">$810 million announced 25 Sep</text>
+  <rect x="220" y="210" width="294" height="36" fill="#718096"/>
+  <text x="524" y="234" font-family="sans-serif" font-size="14" fill="#222">~$567 million HHS / refugees</text>
+  <rect x="220" y="270" width="48" height="36" fill="#a0aec0"/>
+  <text x="280" y="294" font-family="sans-serif" font-size="14" fill="#222">~$70 million Education languages</text>
+  <text x="40" y="390" font-family="sans-serif" font-size="13" fill="#555">Source: CA OAG 30 Sep 2026; Bloomberg Law summary of complaint. Bars not to scale beyond the labels.</text>
+</svg>

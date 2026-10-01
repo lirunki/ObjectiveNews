@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#e8e4dc"/>
+  <rect x="30" y="30" width="740" height="360" fill="#f7f5f1" stroke="#333"/>
+  <text x="50" y="110" font-family="Georgia, serif" font-size="26" fill="#222">ObjectiveNews local fallback</text>
+  <text x="50" y="170" font-family="sans-serif" font-size="18" fill="#444">Ceuta walls fallback</text>
+  <text x="50" y="220" font-family="sans-serif" font-size="16" fill="#555">Not a photograph of the event. Used only if the Commons still fails.</text>
+</svg>

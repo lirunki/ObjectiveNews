@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#f4f1ea"/>
+  <text x="40" y="48" font-family="Georgia, serif" font-size="22" fill="#222">Two call counts, not one verified log</text>
+  <line x1="160" y1="100" x2="160" y2="320" stroke="#333"/>
+  <line x1="160" y1="320" x2="700" y2="320" stroke="#333"/>
+  <rect x="220" y="140" width="360" height="40" fill="#4a5568"/>
+  <text x="590" y="166" font-family="sans-serif" font-size="16" fill="#222">Moncloa: 9 calls, 27–30 Jul</text>
+  <rect x="220" y="220" width="400" height="40" fill="#718096"/>
+  <text x="630" y="246" font-family="sans-serif" font-size="16" fill="#222">Vivas account: ~10 attempts, 3 answered</text>
+  <text x="40" y="370" font-family="sans-serif" font-size="14" fill="#555">Counts are competing claims reported 1 Oct 2026. No public phone-carrier log is in the sources.</text>
+</svg>
