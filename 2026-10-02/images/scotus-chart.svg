@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#f7f5f1"/>
+  <text x="40" y="40" font-family="Georgia,serif" font-size="20" fill="#222">Circuits on mandatory detention without a bond hearing</text>
+  <text x="40" y="64" font-family="Georgia,serif" font-size="13" fill="#555">As described by AP, 1 October 2026. Not a clerk tally.</text>
+  <rect x="100" y="120" width="220" height="160" fill="#4a5a6a"/>
+  <text x="130" y="200" font-family="sans-serif" font-size="28" fill="#fff">9</text>
+  <text x="120" y="310" font-family="sans-serif" font-size="14" fill="#222">Circuits rejecting</text>
+  <rect x="420" y="200" width="220" height="80" fill="#8a8175"/>
+  <text x="500" y="250" font-family="sans-serif" font-size="28" fill="#fff">2</text>
+  <text x="430" y="310" font-family="sans-serif" font-size="14" fill="#222">5th and 8th</text>
+  <text x="40" y="370" font-family="Georgia,serif" font-size="13" fill="#555">NYT reported about 70,000 people in immigration detention, up from about 40,000 before January 2025.</text>
+</svg>

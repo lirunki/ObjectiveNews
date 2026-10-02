@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#d9d3c7"/>
+  <rect x="80" y="120" width="640" height="220" fill="#b7b0a4" stroke="#333"/>
+  <text x="100" y="230" font-family="Georgia,serif" font-size="26" fill="#222">Frances Perkins Building (fallback)</text>
+  <text x="100" y="270" font-family="Georgia,serif" font-size="16" fill="#333">Department of Labor exterior, Washington — not the September print</text>
+</svg>

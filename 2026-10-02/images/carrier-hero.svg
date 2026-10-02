@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#cfd6de"/>
+  <rect x="60" y="200" width="680" height="70" fill="#6d7c8a" stroke="#222"/>
+  <polygon points="80,200 200,160 620,160 720,200" fill="#8b98a6"/>
+  <text x="80" y="330" font-family="Georgia,serif" font-size="18" fill="#222">Type photo fallback: Nimitz-class carrier, not this transit</text>
+</svg>

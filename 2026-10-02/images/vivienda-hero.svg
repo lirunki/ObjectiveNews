@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#e4dccf"/>
+  <rect x="180" y="140" width="440" height="180" fill="#c4b59a" stroke="#333"/>
+  <polygon points="160,150 400,70 640,150" fill="#a89070" stroke="#333"/>
+  <text x="200" y="380" font-family="Georgia,serif" font-size="18" fill="#222">Congreso de los Diputados — foto de lugar, no del pleno</text>
+</svg>

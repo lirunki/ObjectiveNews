@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#d5d8dc"/>
+  <polygon points="120,300 400,140 680,300" fill="#9aa3ad" stroke="#333"/>
+  <rect x="160" y="300" width="480" height="80" fill="#c5ccd3" stroke="#333"/>
+  <text x="180" y="400" font-family="Georgia,serif" font-size="18" fill="#222">Supreme Court exterior fallback — not the order</text>
+</svg>
