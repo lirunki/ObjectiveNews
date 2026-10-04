@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="400" viewBox="0 0 880 400" role="img" aria-label="Votos de convalidación del 2 de octubre">
+  <rect width="880" height="400" fill="#f7f4ee"/>
+  <text x="32" y="40" font-family="Georgia, serif" font-size="22" fill="#222">Convalidación del 2 de octubre, Congreso</text>
+  <text x="32" y="68" font-family="system-ui, sans-serif" font-size="14" fill="#555">Cifras ya publicadas: 172–178 y 166–184. No son un recuento nuevo del domingo.</text>
+  <rect x="120" y="150" width="70" height="160" fill="#3d5a80"/>
+  <rect x="210" y="140" width="70" height="170" fill="#6b3a3a"/>
+  <rect x="460" y="168" width="70" height="142" fill="#3d5a80"/>
+  <rect x="550" y="120" width="70" height="190" fill="#6b3a3a"/>
+  <text x="125" y="340" font-family="system-ui, sans-serif" font-size="14" fill="#222">172</text>
+  <text x="215" y="340" font-family="system-ui, sans-serif" font-size="14" fill="#222">178</text>
+  <text x="465" y="340" font-family="system-ui, sans-serif" font-size="14" fill="#222">166</text>
+  <text x="555" y="340" font-family="system-ui, sans-serif" font-size="14" fill="#222">184</text>
+  <text x="130" y="365" font-family="system-ui, sans-serif" font-size="13" fill="#555">decreto 1</text>
+  <text x="470" y="365" font-family="system-ui, sans-serif" font-size="13" fill="#555">decreto 2</text>
+</svg>

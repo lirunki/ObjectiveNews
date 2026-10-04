@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-label="Two of three 2026 Tennessee execution attempts failed">
+  <rect width="880" height="420" fill="#f7f4ee"/>
+  <text x="32" y="40" font-family="Georgia, serif" font-size="22" fill="#222">Tennessee execution attempts reported in 2026</text>
+  <text x="32" y="68" font-family="system-ui, sans-serif" font-size="14" fill="#555">Source: Tennessean and Fox News, 3 Oct 2026. Not a Department of Correction table.</text>
+  <rect x="120" y="120" width="140" height="200" fill="#8a8175"/>
+  <rect x="340" y="120" width="140" height="200" fill="#8a8175"/>
+  <rect x="560" y="220" width="140" height="100" fill="#2f5d50"/>
+  <text x="145" y="350" font-family="system-ui, sans-serif" font-size="14" fill="#222">Carruthers</text>
+  <text x="150" y="370" font-family="system-ui, sans-serif" font-size="13" fill="#555">May, halted</text>
+  <text x="385" y="350" font-family="system-ui, sans-serif" font-size="14" fill="#222">Pike</text>
+  <text x="360" y="370" font-family="system-ui, sans-serif" font-size="13" fill="#555">30 Sep, failed</text>
+  <text x="590" y="350" font-family="system-ui, sans-serif" font-size="14" fill="#222">Sutton</text>
+  <text x="575" y="370" font-family="system-ui, sans-serif" font-size="13" fill="#555">3 Dec, canceled</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="960" height="540" fill="#e7e2d8"/>
+  <rect x="24" y="24" width="912" height="492" fill="none" stroke="#8a8175" stroke-width="2"/>
+  <text x="48" y="250" font-family="Georgia, serif" font-size="28" fill="#2c2824">Fallback: CSUN campus exterior</text>
+  <text x="48" y="300" font-family="Georgia, serif" font-size="18" fill="#5c564e">Local fallback if the remote still does not load</text>
+</svg>

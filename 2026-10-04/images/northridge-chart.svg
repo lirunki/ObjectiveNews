@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" role="img" aria-label="Northridge shooting counts as of Saturday morning">
+  <rect width="880" height="380" fill="#f7f4ee"/>
+  <text x="32" y="40" font-family="Georgia, serif" font-size="22" fill="#222">What LAPD had confirmed by Saturday morning</text>
+  <text x="32" y="68" font-family="system-ui, sans-serif" font-size="14" fill="#555">Los Angeles Times, 3 Oct 2026. A possible third victim was not located.</text>
+  <rect x="80" y="140" width="180" height="140" fill="#6b3a3a"/>
+  <rect x="340" y="200" width="180" height="80" fill="#8a8175"/>
+  <rect x="600" y="230" width="180" height="50" fill="#2f5d50"/>
+  <text x="130" y="310" font-family="system-ui, sans-serif" font-size="15" fill="#222">2 dead</text>
+  <text x="360" y="310" font-family="system-ui, sans-serif" font-size="15" fill="#222">1 unlocated report</text>
+  <text x="640" y="310" font-family="system-ui, sans-serif" font-size="15" fill="#222">0 arrests</text>
+</svg>
