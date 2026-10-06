@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e6ebe8"/>
+  <rect x="160" y="140" width="880" height="380" fill="#d4ddd6" stroke="#44564c"/>
+  <text x="80" y="80" font-family="Georgia, serif" font-size="30" fill="#1c2830">Treasury building — exterior fallback</text>
+  <text x="80" y="560" font-family="sans-serif" font-size="20" fill="#1c2830">Agency facade, not the OFAC alert document.</text>
+</svg>

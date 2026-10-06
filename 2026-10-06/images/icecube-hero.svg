@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e8eef2"/>
+  <rect x="80" y="120" width="1040" height="420" fill="#d5dee6" stroke="#5c6b78"/>
+  <text x="100" y="80" font-family="Georgia, serif" font-size="32" fill="#1c2830">IceCube Neutrino Observatory — type still fallback</text>
+  <text x="100" y="200" font-family="sans-serif" font-size="22" fill="#1c2830">South Pole station area, not the 6 Oct 2026 announcement room.</text>
+  <text x="100" y="250" font-family="sans-serif" font-size="20" fill="#3d4c58">Commons file blocked. See images/SOURCES.md.</text>
+</svg>

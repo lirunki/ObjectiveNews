@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440">
+  <rect width="880" height="440" fill="#f7f5f0"/>
+  <text x="36" y="42" font-family="Georgia, serif" font-size="20" fill="#1c2830">Partidas anunciadas el 6 oct 2026 (millones de euros)</text>
+  <rect x="250" y="80" width="560" height="40" fill="#3f6f8f"/>
+  <text x="36" y="106" font-family="sans-serif" font-size="15" fill="#1c2830">ICO primera vivienda</text>
+  <text x="820" y="106" font-family="sans-serif" font-size="15" fill="#1c2830">10000</text>
+  <rect x="250" y="150" width="22" height="40" fill="#7a9a6a"/>
+  <text x="36" y="176" font-family="sans-serif" font-size="15" fill="#1c2830">Proveedores sociales</text>
+  <text x="290" y="176" font-family="sans-serif" font-size="15" fill="#1c2830">400</text>
+  <rect x="250" y="220" width="16" height="40" fill="#a08050"/>
+  <text x="36" y="246" font-family="sans-serif" font-size="15" fill="#1c2830">Industrializada</text>
+  <text x="280" y="246" font-family="sans-serif" font-size="15" fill="#1c2830">280</text>
+  <text x="36" y="340" font-family="sans-serif" font-size="14" fill="#3d4c58">Cifras de la comparecencia y de RTVE. No son aún consignación en BOE. Escala: 10000 m € = barra completa.</text>
+</svg>

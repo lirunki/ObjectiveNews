@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e7ece8"/>
+  <rect x="80" y="130" width="1040" height="400" fill="#d5ddd6" stroke="#4e5c52"/>
+  <text x="100" y="80" font-family="Georgia, serif" font-size="30" fill="#1c2830">Cortes / BOE — fallback de sede</text>
+  <text x="100" y="220" font-family="sans-serif" font-size="22" fill="#1c2830">Fachada de archivo, no el ejemplar del BOE del 6 de octubre.</text>
+</svg>
