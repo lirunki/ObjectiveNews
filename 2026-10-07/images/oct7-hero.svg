@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e4e7ea"/>
+  <rect x="160" y="140" width="880" height="300" fill="#b7c0c7" stroke="#4d565c"/>
+  <text x="80" y="520" font-family="Georgia, serif" font-size="28" fill="#222">Fallback: Knesset exterior not loaded</text>
+</svg>

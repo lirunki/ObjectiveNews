@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e6e3da"/>
+  <rect x="470" y="60" width="160" height="460" fill="#b9b2a4" stroke="#5c564c"/>
+  <text x="70" y="570" font-family="Georgia, serif" font-size="28" fill="#222">Fallback: Cornell towers not loaded</text>
+</svg>

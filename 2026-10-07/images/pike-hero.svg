@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e5e8ea"/>
+  <rect x="380" y="70" width="440" height="430" fill="#c5ccd1" stroke="#4e575d"/>
+  <text x="70" y="560" font-family="Georgia, serif" font-size="28" fill="#222">Fallback: Tennessee capitol exterior not loaded</text>
+</svg>

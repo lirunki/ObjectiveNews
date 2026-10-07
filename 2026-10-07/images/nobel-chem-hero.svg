@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e6e2d8"/>
+  <rect x="80" y="90" width="1040" height="420" fill="#cfc8b8" stroke="#6d675c"/>
+  <text x="100" y="560" font-family="Georgia, serif" font-size="28" fill="#333">Fallback: Royal Swedish Academy exterior not loaded</text>
+</svg>

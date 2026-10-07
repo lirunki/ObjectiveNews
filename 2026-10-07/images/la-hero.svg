@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="1200" height="675" fill="#e7e2d6"/>
+  <rect x="420" y="80" width="220" height="420" fill="#c2b8a4" stroke="#5c564c"/>
+  <text x="80" y="560" font-family="Georgia, serif" font-size="28" fill="#222">Fallback: Los Angeles City Hall not loaded</text>
+</svg>
