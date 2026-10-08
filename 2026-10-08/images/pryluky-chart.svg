@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#f4f1ea"/>
+  <text x="40" y="40" font-family="Georgia, serif" font-size="18" fill="#222">Reported Pryluky deaths, 7 Oct 2026 (not a single official series)</text>
+  <line x1="80" y1="340" x2="740" y2="340" stroke="#333"/>
+  <rect x="120" y="210" width="70" height="130" fill="#6b6560"/>
+  <rect x="280" y="150" width="70" height="190" fill="#6b6560"/>
+  <rect x="440" y="120" width="70" height="220" fill="#6b6560"/>
+  <rect x="600" y="120" width="70" height="220" fill="#6b6560"/>
+  <text x="118" y="370" font-size="13" fill="#222">13</text>
+  <text x="278" y="370" font-size="13" fill="#222">19</text>
+  <text x="438" y="370" font-size="13" fill="#222">22</text>
+  <text x="598" y="370" font-size="13" fill="#222">22</text>
+  <text x="100" y="400" font-size="12" fill="#444">Governor (Reuters)</text>
+  <text x="250" y="400" font-size="12" fill="#444">Zelenskyy (Reuters)</text>
+  <text x="420" y="400" font-size="12" fill="#444">BBC update</text>
+  <text x="575" y="400" font-size="12" fill="#444">SES (NV, 8 Oct)</text>
+</svg>

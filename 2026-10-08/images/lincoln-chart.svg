@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <rect width="800" height="420" fill="#f4f1ea"/>
+  <text x="40" y="36" font-family="Georgia, serif" font-size="18" fill="#222">Figures Hegseth read with the citation (not an audit)</text>
+  <rect x="80" y="200" width="90" height="140" fill="#6b6560"/>
+  <rect x="230" y="80" width="90" height="260" fill="#6b6560"/>
+  <rect x="380" y="230" width="90" height="110" fill="#6b6560"/>
+  <rect x="530" y="250" width="90" height="90" fill="#6b6560"/>
+  <text x="85" y="370" font-size="12" fill="#222">3,693 flights</text>
+  <text x="235" y="370" font-size="12" fill="#222">450 Tomahawks</text>
+  <text x="390" y="370" font-size="12" fill="#222">77 drones</text>
+  <text x="540" y="370" font-size="12" fill="#222">64 ships sunk</text>
+  <text x="40" y="400" font-size="12" fill="#555">Stars and Stripes account of the 7 Oct speech. Bars are not to one scale.</text>
+</svg>

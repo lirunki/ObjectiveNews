@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#e8e4dc"/>
+  <rect x="40" y="40" width="720" height="370" fill="#f7f5f1" stroke="#6b6560"/>
+  <text x="60" y="120" font-family="Georgia, serif" font-size="28" fill="#222">Fallback still</text>
+  <text x="60" y="170" font-family="Georgia, serif" font-size="18" fill="#444">Commons photograph did not load.</text>
+  <text x="60" y="210" font-family="Georgia, serif" font-size="16" fill="#444">This rectangle is not the event.</text>
+</svg>
