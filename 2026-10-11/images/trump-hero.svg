@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="400" y="200" text-anchor="middle" font-family="serif" font-size="24" fill="#1c1914">White House fallback</text>
+  <text x="400" y="240" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#5c564c">Exterior type photo unavailable</text>
+</svg>
