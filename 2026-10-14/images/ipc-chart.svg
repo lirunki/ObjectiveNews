@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="40" y="40" font-family="sans-serif" font-size="20" fill="#1c1914">IPC España tasa anual (%)</text>
+  <rect x="100" y="270" width="60" height="50" fill="#2b4c3f"/>
+  <text x="110" y="340" font-size="14">Ago 4.3</text>
+  <rect x="200" y="240" width="60" height="80" fill="#2b4c3f"/>
+  <text x="210" y="340" font-size="14">Sep 4.9</text>
+  <text x="40" y="80" font-size="16">Fuente: INE septiembre 2026</text>
+</svg>

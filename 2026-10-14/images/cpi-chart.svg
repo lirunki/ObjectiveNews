@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="40" y="40" font-family="sans-serif" font-size="20" fill="#1c1914">US CPI annual rate (%)</text>
+  <rect x="100" y="280" width="60" height="40" fill="#2b4c3f"/>
+  <text x="110" y="340" font-size="14">Aug 3.4</text>
+  <rect x="200" y="250" width="60" height="70" fill="#2b4c3f"/>
+  <text x="210" y="340" font-size="14">Sep 3.7</text>
+  <text x="40" y="80" font-size="16">Source: BLS September 2026</text>
+</svg>
