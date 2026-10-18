@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <rect width="600" height="400" fill="#f8f8f8"/>
+  <text x="300" y="40" font-family="sans-serif" font-size="20" text-anchor="middle">AEMET estimated max accumulations (DANA Adam)</text>
+  <text x="100" y="100" font-family="sans-serif" font-size="16">S. Valencia / N. Alicante</text>
+  <rect x="300" y="80" width="250" height="30" fill="#c0392b"/>
+  <text x="560" y="100" font-family="sans-serif" font-size="14">up to 300 mm / 24h</text>
+  <text x="100" y="180" font-family="sans-serif" font-size="16">Pitiusas / other</text>
+  <rect x="300" y="160" width="180" height="30" fill="#e67e22"/>
+  <text x="490" y="180" font-family="sans-serif" font-size="14">up to 160+ mm / 12h</text>
+  <text x="300" y="280" font-family="sans-serif" font-size="14" text-anchor="middle">Source: AEMET special warning 37/2026, 18 Oct 2026. Schematic only.</text>
+</svg>
