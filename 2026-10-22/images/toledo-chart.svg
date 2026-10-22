@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#f4f1ea"/>
+  <text x="40" y="50" font-family="system-ui" font-size="24" fill="#1c1914">Toledo zones (city/AP figures)</text>
+  <rect x="100" y="120" width="200" height="40" fill="#6b5b4f"/>
+  <text x="310" y="145" font-family="system-ui" font-size="16" fill="#1c1914">1-mile evacuate ~1,000</text>
+  <rect x="100" y="180" width="400" height="40" fill="#a89f91"/>
+  <text x="510" y="205" font-family="system-ui" font-size="16" fill="#1c1914">3-mile shelter >50,000</text>
+  <text x="40" y="280" font-family="system-ui" font-size="14" fill="#5c5346">Not a map of the plume. Local SVG fallback / chart.</text>
+</svg>

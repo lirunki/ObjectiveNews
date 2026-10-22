@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#e8e4dc"/>
+  <text x="40" y="60" font-family="system-ui" font-size="22" fill="#1c1914">Toledo skyline (local fallback)</text>
+  <rect x="150" y="200" width="40" height="120" fill="#8a7d6d"/>
+  <rect x="210" y="160" width="50" height="160" fill="#6b5b4f"/>
+  <rect x="280" y="180" width="30" height="140" fill="#a89f91"/>
+  <text x="40" y="380" font-family="system-ui" font-size="14" fill="#5c5346">Committed SVG. Type illustration, not the chemical site.</text>
+</svg>
