@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#fff"/>
+  <text x="300" y="40" font-size="16" text-anchor="middle">Fed funds target range</text>
+  <rect x="100" y="100" width="100" height="100" fill="#48c"/>
+  <text x="150" y="230" font-size="12" text-anchor="middle">3.75-4.00%</text>
+  <text x="300" y="270" font-size="12" text-anchor="middle">Expected hold 28 Oct 2026</text>
+</svg>
