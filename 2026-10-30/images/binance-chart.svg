@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#fff"/>
+  <text x="300" y="40" text-anchor="middle" font-size="18">Stolen assets (approx)</text>
+  <rect x="50" y="80" width="250" height="40" fill="#e53e3e"/>
+  <text x="175" y="105" text-anchor="middle" fill="#fff">$6.3B total</text>
+  <rect x="50" y="140" width="180" height="30" fill="#38a169"/>
+  <text x="140" y="160" text-anchor="middle" fill="#fff">~$3B frozen</text>
+</svg>

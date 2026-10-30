@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#1a202c"/>
+  <text x="400" y="200" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#f6e05e">BINANCE</text>
+  <text x="400" y="240" text-anchor="middle" font-size="16" fill="#fff">Logo type fallback</text>
+</svg>
