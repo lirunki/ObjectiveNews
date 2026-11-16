@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <rect width="600" height="300" fill="#fffdf8"/>
+  <text x="300" y="40" text-anchor="middle" font-family="sans-serif" font-size="18">Approximate flight cancellations</text>
+  <rect x="50" y="80" width="80" height="160" fill="#2b4c3f"/>
+  <text x="90" y="260" text-anchor="middle" font-size="12">Fri ~12k</text>
+  <rect x="180" y="120" width="80" height="120" fill="#2b4c3f" opacity="0.7"/>
+  <text x="220" y="260" text-anchor="middle" font-size="12">Sat ~6k</text>
+  <rect x="310" y="180" width="80" height="60" fill="#2b4c3f" opacity="0.5"/>
+  <text x="350" y="260" text-anchor="middle" font-size="12">Sun ~2k</text>
+  <rect x="440" y="210" width="80" height="30" fill="#2b4c3f" opacity="0.3"/>
+  <text x="480" y="260" text-anchor="middle" font-size="12">Mon ~0.5k</text>
+  <text x="300" y="290" text-anchor="middle" font-size="11" fill="#5c564c">Source: FAA Q&A and FlightAware reports via wires. Approximate.</text>
+</svg>
