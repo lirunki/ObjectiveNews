@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#2b4c3f"/>
+  <text x="400" y="200" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#fffdf8">El Hierro satellite view</text>
+  <text x="400" y="240" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#fffdf8">Location photograph fallback</text>
+</svg>
