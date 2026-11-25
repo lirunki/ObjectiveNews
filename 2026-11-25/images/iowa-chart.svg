@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <rect width="800" height="300" fill="#fffdf8" stroke="#d9d0c0"/>
+  <text x="400" y="40" text-anchor="middle" font-family="sans-serif" font-size="18" fill="#1c1914">Lead azide stockpile (Army figures)</text>
+  <rect x="100" y="80" width="60" height="150" fill="#2b4c3f"/>
+  <text x="130" y="250" text-anchor="middle" font-size="14">68 drums</text>
+  <rect x="250" y="50" width="60" height="180" fill="#5c564c"/>
+  <text x="280" y="250" text-anchor="middle" font-size="14">~9700 lb</text>
+  <text x="400" y="280" text-anchor="middle" font-size="12" fill="#5c564c">Approximate net explosive weight as reported by Army</text>
+</svg>
